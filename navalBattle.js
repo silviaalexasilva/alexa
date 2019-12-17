@@ -1,12 +1,13 @@
 function navalBattle () {
-    let arrayLetters = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O'];
-    let arrTotal = [];
-    for (let i = 0; i < arrayLetters.length; i++) {
+    let letters = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O'];
+    let numTotal = [];
+    for (let i = 0; i < letters.length; i++) {
         for (let u = 1; u<16; u++) {
-            let element = `${arrayLetters[i]}-${u}`;
-            arrTotal.push(element);
+            let element = `${letters[i]}-${u}`;
+            numTotal.push(element);
             }
         }
-        console.log(arrTotal);
+        return numTotal;
     }
-    navalBattle();
+   console.log(navalBattle());
+    
