@@ -1,1 +1,1 @@
-# alexa
+# Our first checkpoint training!
